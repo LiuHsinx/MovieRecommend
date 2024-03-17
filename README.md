@@ -20,7 +20,21 @@
 1. 进入setting.py——DATABASES 字段下设置数据库信息，命名必须为**movie_recommend_db**
 2. 数据库可以先进行models的迁移：python manage.py migrate 然后直接导入sql文件，最后启动服务器 python manage.py runserver 即可打开链接
 
-如果你想从头开始做并导入自己的数据，你必须先连接好数据库并迁移model到数据库上，然后可以用jupyter notebook对数据进行清洗用Navicat导入文件
+如果你想从头开始做并导入自己的数据，你必须先连接好数据库并迁移model到数据库上，然后可以对数据进行清洗用Navicat导入文件
+
+页面封面：
+![image](https://github.com/LiuHsinx/MovieRecommend/assets/93762973/3241abbd-31db-4d50-a816-cac5b33a4e6b)
+系统首页：
+![image](https://github.com/LiuHsinx/MovieRecommend/assets/93762973/62d80629-dd03-451e-9fbc-406d2b27ee9f)
+分类页：
+![image](https://github.com/LiuHsinx/MovieRecommend/assets/93762973/6cded0f5-0e87-4076-bbfb-818fbca78047)
+详情页：
+![image](https://github.com/LiuHsinx/MovieRecommend/assets/93762973/ccc0d176-d3b1-4724-9279-96680ebce766)
+
+推荐页：
+![image](https://github.com/LiuHsinx/MovieRecommend/assets/93762973/81f4fb79-2e05-4c08-b591-801e9a8b2f7f)
+
+
 
 
 
